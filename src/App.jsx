@@ -5,7 +5,7 @@ import {CORE_CONCEPTS,EXAMPLES} from "./data.js"
 import TabButton from "./Components/TabButton.jsx"
 function App() {
 
-  const [tabContent,setTabContent]=useState('Please click a button')
+  const [tabContent,setTabContent]=useState()
   function handleSelect(name){
     setTabContent(name)
   }
@@ -29,14 +29,16 @@ function App() {
           <TabButton onSelect={()=>handleSelect('props')}>Props</TabButton>
           <TabButton onSelect={()=>handleSelect('state')}>State</TabButton>
         </menu>
+        {!tabContent?(<p>Please select a Topic</p>):(
+          <div id='tab-content'>
+            <h3>{EXAMPLES[tabContent].title}</h3>
+            <p>{EXAMPLES[tabContent].description}</p>
+            <pre>
+              <code>{EXAMPLES[tabContent].code}</code>
+            </pre>
+          </div>
+        )}
       </section>
-      <div id='tab-content'>
-        <h3>{EXAMPLES[tabContent].title}</h3>
-        <p>{EXAMPLES[tabContent].description}</p>
-        <pre>
-          <code>{EXAMPLES[tabContent].code}</code>
-        </pre>
-      </div>
     </div>
   );
 }
