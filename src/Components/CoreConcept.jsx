@@ -1,7 +1,6 @@
 import "./CoreConcept.css"
 
 function CoreConcept(props){
-    console.log("Inside CoreConcept")
     return(
         <>
             <li id="core-concepts">

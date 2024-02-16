@@ -1,3 +1,5 @@
+import './Header.css'
+
 function Header(){
     const reactRandom=['Fundamentals','Core','Crucial']
     function createRandom(max){
