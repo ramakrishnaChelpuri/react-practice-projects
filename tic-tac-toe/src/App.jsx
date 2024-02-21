@@ -1,4 +1,6 @@
 import PlayerInfo from './Components/PlayerInfo'
+import GameBoard from './Components/GameBoard'
+
 function App() {
 
   return (
@@ -7,6 +9,7 @@ function App() {
         <PlayerInfo name="player - 1" symbol="X" />
         <PlayerInfo name="player - 2" symbol="O" />
       </ol>
+      <GameBoard />
     </main>
   )
 }
