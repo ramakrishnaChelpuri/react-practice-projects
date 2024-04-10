@@ -24,7 +24,7 @@ git clone https://github.com/ramakrishnaChelpuri/react-practice-projects.git
 2. Navigate to the project directory:
 
 ```bash
-cd To-do-taskbar
+cd to-do-taskbar
 ```
 
 3. Install dependencies:
