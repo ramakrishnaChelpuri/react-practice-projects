@@ -18,13 +18,13 @@ This project is a simple React application that allows users to manage their to-
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-todo-task-bar.git
+git clone https://github.com/ramakrishnaChelpuri/react-practice-projects.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd react-todo-task-bar
+cd To-do-taskbar
 ```
 
 3. Install dependencies:
