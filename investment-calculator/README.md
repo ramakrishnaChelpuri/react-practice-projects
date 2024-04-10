@@ -1,4 +1,4 @@
-# Investment Calculator
+# Investment Calculator :money_with_wings:
 
 This React-based Investment Calculator allows users to estimate their returns based on various financial inputs, including initial savings, monthly investment amount, interest rate per year, and investment term.
 

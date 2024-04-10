@@ -1,4 +1,4 @@
-# React To-Do Task Bar
+# React To-Do Task Bar :clipboard:
 
 This project is a simple React application that allows users to manage their to-do tasks efficiently. It offers functionalities such as adding tasks to a list, deleting tasks, implementing tooltips for user guidance, and displaying the list of items using the map function. State management is used to display hover buttons for each task item.
 
