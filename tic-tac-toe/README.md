@@ -55,4 +55,4 @@ Contributions are welcome! Feel free to submit pull requests or open issues for 
 ## License
 Feel free to use, modify, and distribute this code for personal or commercial projects.
 
-Designed and developed with ❤️ by Ramakrishna Chelpuri
+Designed and developed with ❤️ by Ramakrishna Chelpuri.
